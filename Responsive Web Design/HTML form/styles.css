@@ -1,0 +1,49 @@
+body
+{
+	background-color: #1B1B32;
+	color:white;
+	font-family: tahoma;
+	//border:20px solid red;
+}
+main
+{
+	//border:10px solid cyan;
+	width:40%;
+	margin:auto;
+	//text-align: center;
+}
+h1, .please
+{
+	text-align: center;
+	//border: 10px dotted cyan;
+}
+.please
+{
+	margin-bottom: 50px;
+}
+form
+{
+	//border:1px solid blue;
+}
+.text
+{
+	width:100%;
+	background-color: #0A0A23;
+	border: none;
+	height:25px;
+}
+.radio
+{
+	border-width: 5px;
+	border:10px solid red;
+}
+button
+{
+	//border:10px solid red;
+}
+.submit
+{
+	//border:10px solid red;
+	width: 50%;
+	margin-left: 25%;
+}
