@@ -1,0 +1,63 @@
+body
+{
+	//background-color: rgb(230, 120, 10);
+	width: 100%;
+	height: 100vh;
+	margin:auto;
+	//border:3px solid rgb(230, 120, 10);
+	font-size: 18px;
+	font-family: fantasy;
+	background-color: #475B71;
+	color: whitesmoke;
+}
+
+#title, #description
+{
+	text-align: center;
+}
+form
+{
+	//border:5px dotted bisque;
+	width: 60%;
+	max-width: 500px;
+	margin:auto;
+	min-height: 400px;
+
+}
+label
+{
+	display:block;
+	margin:1em 0;
+	//border:3px dotted rgb(10, 10, 10);
+}
+input, select, textarea
+{
+	width:100%;
+	height:1.8em;
+	background-color: #491F71;
+	border:none;
+	color:navajowhite;
+}
+
+.inline
+{
+	width: unset;
+	vertical-align: middle;
+}
+input[type="checkbox"]
+{
+	display: inline;
+	width: unset;
+	vertical-align: middle;
+}
+
+
+#submit
+{
+	display: block;
+	width:50%;
+	margin:auto;
+	height:1.8em;
+	font-size: 1.2em;
+	border: none;
+}
