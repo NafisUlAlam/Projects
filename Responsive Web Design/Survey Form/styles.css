@@ -18,9 +18,9 @@ body
 form
 {
 	//border:5px dotted bisque;
-	width: 60%;
+	width: 60vw;
 	max-width: 500px;
-	margin:auto;
+	margin:0 auto;
 	min-height: 400px;
 
 }
