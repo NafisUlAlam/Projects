@@ -1,6 +1,5 @@
 span[class~="sr-only"] {
   border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
   clip-path: inset(50%) !important;
   height: 1px !important;
   width: 1px !important;
@@ -18,6 +17,11 @@ html {
 body {
   font-family: sans-serif;
   color: #0a0a23;
+}
+section {
+  max-width: 40rem;
+  margin: 0 auto;
+  border: 2px solid #d0d0d5;
 }
 
 h1 {
@@ -40,11 +44,6 @@ h1 .flex span:last-of-type {
   font-size: 1.2em;
 }
 
-section {
-  max-width: 40rem;
-  margin: 0 auto;
-  border: 2px solid #d0d0d5;
-}
 
 #years {
   display: flex;
