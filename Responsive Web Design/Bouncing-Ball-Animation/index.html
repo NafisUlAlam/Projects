@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 90vh;
+        background-color: aqua;
+        width: 90vw;
+        /* border: 2px solid transparent; */
+        padding: 1px;
+      }
+      .ball {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: red;
+        margin-top: calc(90vh - 100px);
+        animation: jumpY 3s linear 1s infinite alternate;
+      }
+      @keyframes jumpY {
+        0% {
+          transform: translateY(0px);
+        }
+        25% {
+          transform: translate(22.5vw, calc(-90vh + 100px));
+        }
+        50% {
+          transform: translate(45vw, 0);
+        }
+        75% {
+          transform: translate(67vw, calc(-90vh + 100px));
+        }
+        100% {
+          transform: translate(calc(90vw - 100px), 0);
+        }
+      }
+      @keyframes moveX {
+        0% {
+        }
+        100% {
+          transform: translateX(90vw);
+          transform: translateY(-90vh);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ball"></div>
+    </div>
+  </body>
+</html>
